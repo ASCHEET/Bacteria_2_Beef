@@ -1,6 +1,6 @@
 # From Bacteria to Beef
 As an alternative to real beef, Rosa is interested in synthesizing bacterial proteins that taste like beef.  Improbable Beef (a food startup) is teaming up with Rosa's lab to determine potential bacterial candidate species that can be harvested within the human navel.
-To test the hypothesis, Rosa has sampled several navels throughout the country o colonize the bacterial species that live within the belly button.  the participants are anonymous and given ID numbers through the website Rosa is using to display information for participants to lookup their bacterial results.
+To test the hypothesis, Rosa has sampled several navels throughout the country to colonize the bacterial species that live within the belly button.  The participants are anonymous, given ID numbers through the website Rosa is using to display information for participants to lookup their bacterial results.
 
 ## Gitpage
 https://ascheet.github.io/Bacteria_2_Beef/
