@@ -1,11 +1,11 @@
 
-
+// Bacteria to Beef , charts from samples.json
 function init() {
   // Grab a reference to the dropdown select element
   var selector = d3.select("#selDataset");
 
   // Use the list of sample names to populate the select options
-  d3.json("./js/data/samples.json").then((data) => {
+  d3.json("samples.json").then((data) => {
     var sampleNames = data.names;
 
     sampleNames.forEach((sample) => {
@@ -22,6 +22,7 @@ function init() {
   });
 }
 
+
 // Initialize the dashboard
 init();
 
@@ -29,19 +30,21 @@ function optionChanged(newSample) {
   // Fetch new data each time a new sample is selected
   buildMetadata(newSample);
   buildCharts(newSample);
-  
 }
 
 // Demographics Panel 
 function buildMetadata(sample) {
-  d3.json("./js/data/samples.json").then((data) => {
+  d3.json("samples.json").then((data) => {
     var metadata = data.metadata;
+    
     // Filter the data for the object with the desired sample number
     var resultArray = metadata.filter(sampleObj => sampleObj.id == sample);
     var result = resultArray[0];
+    
     // Use d3 to select the panel with id of `#sample-metadata`
     var PANEL = d3.select("#sample-metadata");
 
+    
     // Use `.html("") to clear any existing metadata
     PANEL.html("");
 
@@ -60,7 +63,7 @@ function buildMetadata(sample) {
 function buildCharts(sample) {
 
   // 2. Use d3.json to load and retrieve the samples.json file 
-  d3.json("./js/data/samples.json").then((data) => {
+  d3.json("samples.json").then((data) => {
 
     // 3. Create a variable that holds the samples array. 
     var samples = data.samples;
