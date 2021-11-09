@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+# From Bacteria to Beef
+As an alternative to real beef, Rosa is interested in synthesizing bacterial proteins that taste like beef.  Improbable Beef (a food startup) is teaming up with Rosa's lab to determine potential bacterial candidate species that can be harvested within the human navel.
+To test the hypothesis, Rosa has sampled several navels throughout the country o colonize the bacterial species that live within the belly button.  the participants are anonymous and given ID numbers through the website Rosa is using to display information for participants to lookup their bacterial results.
 
-You can use the [editor on GitHub](https://github.com/ASCHEET/Bacteria_2_Beef/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Gitpage
+https://ascheet.github.io/Bacteria_2_Beef/
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The above gitpage is a website that is used to sort the partisans by number and shows the first recipient is ID 940.  Using the Test Subject ID No, each participants bacterial data cultures that are found within the navel are described and plotted using the bar chart.  There is a gauge that shows how often the participant washes their navel, and a bubble chart describing the Bacteria Cultures per Sample. It also, gives a summary of the participants demographic information (e.g Ethnicity, Gender, Age, Location, BBtype, WFREQ)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ASCHEET/Bacteria_2_Beef/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Results
+Below is a screenshot of the Dashboard with participant number 955 information displayed.
