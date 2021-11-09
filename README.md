@@ -9,3 +9,4 @@ The above gitpage is a website that is used to sort the partisans by number and 
 
 ## Results
 Below is a screenshot of the Dashboard with participant number 955 information displayed.
+![Fig 1 Particiapnt 955](https://github.com/ASCHEET/Bacteria_2_Beef/blob/main/Dashboard_example_955.png?raw=true)
